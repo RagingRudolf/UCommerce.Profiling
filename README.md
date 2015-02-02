@@ -22,7 +22,7 @@ You can find more information about it [here](http://www.ucommerce.net/ "uCommer
 - Compile the project against your specific uCommerce version, Castle.Windsor, NHibernate and FluentNHibernate.
 - Register ProfilingInterceptor in uCommerce "customs.config".
 - Register custom session provider instead of ucommerce's default one to get SQL queries shown as well.
-- Register interceptor on the components you want to intercept.
+- Register interceptor on the components you want to intercept (Examples inside of Core.config in uCommerce shows how that is done).
 - Register ProfilingHandlerModule if you want a simple HttpModule for starting MiniProfiler on request start.
 
 ## Future
