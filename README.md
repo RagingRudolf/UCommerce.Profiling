@@ -1,7 +1,7 @@
 # Profiling for uCommerce
 
 
-uCommerce.Profiling is a library that helps you profiling services inside uCommerce itself. 
+uCommerce.Profiling is a code sample that helps you profiling services inside uCommerce itself. 
 uCommerce.Profiling uses StackOverflow's MiniProfiler to archive this
 accompanied by an interceptor written for Castle.Windsor. This library intents to help you
 find out which of your components are running slow or causes uCommerce running slow. 
